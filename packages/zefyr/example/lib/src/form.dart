@@ -37,7 +37,7 @@ class _FormEmbeddedScreenState extends State<FormEmbeddedScreen> {
     );
 
     final result = Scaffold(
-      resizeToAvoidBottomPadding: true,
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(
         title: ZefyrLogo(),
         actions: [
@@ -83,8 +83,8 @@ class _FormEmbeddedScreenState extends State<FormEmbeddedScreen> {
     return [
       CheckedPopupMenuItem(
         value: _Options.darkTheme,
-        child: Text('Dark theme'),
         checked: _darkTheme,
+        child: Text('Dark theme'),
       ),
     ];
   }
