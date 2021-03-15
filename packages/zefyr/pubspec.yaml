@@ -17,9 +17,9 @@ dependencies:
       ref: nnbd
   notus:
     git:
-      url: https://github.com/amantoux/zefyr.git
+      url: https://github.com/bigradium/zefyr.git
       path: packages/notus
-      ref: notus-null-safety
+      ref: converter-2.0
   characters: ^1.0.0
 
 dev_dependencies:
